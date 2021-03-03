@@ -33,7 +33,23 @@ nav ul li {
     margin-left: 25px;
     list-style-type: none;
 }
-
+.back-img{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/woodfloor.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+/* .profile-img{
+    height: 100px;
+    width: 20%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/profile-picture.jpeg") ;
+    background-size: initial;
+    background-position: left;
+    border-radius: 20px;
+} */
 main {
     margin: 0 auto;
     display: flex;
