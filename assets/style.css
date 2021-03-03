@@ -102,6 +102,11 @@ nav ul a {
     flex-direction: row;
     flex-wrap: wrap;
     width: 37.5%;
+    
+}
+.img2 .img-width {
+    height: 50px;
+    width: 100px;
 }
 #contact-me{
     display: flex;
