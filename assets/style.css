@@ -1,194 +1,193 @@
-  /* adds smooth scrolling to entire document */
-  html {
-      scroll-behavior: smooth;
+    /* adds smooth scrolling to entire document */
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    /* style for all of the body elements */
+  body{
+      font-size: 15px;
+      background-color: #f0efeb;
+      color: #7f5539;;
+      line-height: 200%;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  /* styling the header */
+  header{
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      height: 80px;
+      background-color:#ddbea9;
+  }
+  /* h1 tag inside the header */
+  h1 {
+      padding-left: 40px;
+      padding-top: 25px;
+      display: inline-block;
+      font-size: 400%;
   }
   
-  /* style for all of the body elements */
-body{
-    font-size: 15px;
-    background-color: #f0efeb;
-    color: #7f5539;;
-    line-height: 200%;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-/* styling the header */
-header{
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    height: 80px;
-    background-color:#ddbea9;
-}
-/* h1 tag inside the header */
-h1 {
-    padding-left: 40px;
-    padding-top: 25px;
-    display: inline-block;
-    font-size: 400%;
-}
-
-
-/* Navigation bar */
-
-nav {
-    display: flex;
-    padding-top: 25px;
-    margin-right: 20px;
-    float: right;
-}
-
-/* nav bar list items */
-nav ul li {
-    display: flex;
-    flex-wrap: wrap;
-    display: inline-block;
-    margin-left: 25px;
-    list-style-type: none;
-    font-size: 150% ;
-}
-
-nav ul a {
-    color:#7f5539;
-    text-decoration: underline;
-    text-underline-position: under;
-}
-
-.back-img{
-    height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../assets/images/woodfloor.jpg") ;
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-section{
-    display: flex;
-    flex: 0 0 100%;
-}
-aside {
-    flex: 0 0 25%;
-    border-right: solid black 1px;
-    margin: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    text-align: right;
-    font-size: 350%;
-}
-
-.main {
-    flex: 0 0 75%;
-    margin: 20px;
-    padding: 10px;
-    
-}
-article {
-    padding-left: 25px;
-}
-
-
-
-#img1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-
-.img-width{
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 49%;
-    
-}
-.container {
-    display: flex;
-    position: relative;
-    font-family: Arial;
+  
+  /* Navigation bar */
+  
+  nav {
+      display: flex;
+      padding-top: 25px;
+      margin-right: 20px;
+      float: right;
   }
   
-.text-block {
-    display: block-flex;
-    flex: 0 3 0;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color:#ffe6a7 ;
-    color:#7f5539 ;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 50px;
-    width: 70px;
-    font-size: 100%;
-    line-height: 100%;
-    text-align: center;
+  /* nav bar list items */
+  nav ul li {
+      display: flex;
+      flex-wrap: wrap;
+      display: inline-block;
+      margin-left: 25px;
+      list-style-type: none;
+      font-size: 150% ;
   }
-
-
-article ul li{
-    display: flex;
-    flex-wrap: wrap;
-    display: inline-block;
-    margin-top: 45px;
-    margin-left: 110px;
-    list-style-type: none;
-    font-size: 150% ;
-    color: black;
-    
-}
-article ul a {
-    color:#7f5539;
-    text-decoration: underline;
-    text-underline-position: under;
-}
-}
-
-@media screen and (max-width:904px){
-    #img1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-bottom: 10px;
+  
+  nav ul a {
+      color:#7f5539;
+      text-decoration: underline;
+      text-underline-position: under;
+  }
+  
+  .back-img{
+      height: 200px;
+      width: 100%;
+      margin-bottom: 25px;
+      background-image: url("../assets/images/woodfloor.jpg") ;
+      background-size: cover;
+      background-position: center;
+  }
+  
+  
+  
+  section{
+      display: flex;
+      flex: 0 0 100%;
+  }
+  aside {
+      flex: 0 0 25%;
+      border-right: solid black 1px;
+      margin: 10px;
+      padding-top: 10px;
+      padding-right: 10px;
+      text-align: right;
+      font-size: 350%;
+  }
+  
+  .main {
+      flex: 0 0 75%;
+      margin: 20px;
+      padding: 10px;
+      
+  }
+  article {
+      padding-left: 25px;
+  }
+  
+  
+  
+  #img1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+  
+  
+  .img-width{
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 49%;
+      
+  }
+  .container {
+      display: flex;
+      position: relative;
+      font-family: Arial;
     }
     
-    
-    .img-width{
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        
+  .text-block {
+      display: block-flex;
+      flex: 0 3 0;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background-color:#ffe6a7 ;
+      color:#7f5539 ;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 50px;
+      width: 70px;
+      font-size: 100%;
+      line-height: 100%;
+      text-align: center;
     }
-
-    header{
-        display: inline-flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        height: 150px;
-        background-color:#ddb892;
-    }
-    h1 {
-        padding-top: 25px;
-        padding-left: 0px;
-        display: inline-block;
-        font-size: 300%;
-        color: #7f5539;
-    }
-    nav {
-        display: flex;
-        padding-top: 25px;
-        float: right;
-    }
-
-    aside {
-        font-size: 200%;
-    }
-}
-
+  
+  
+  article ul li{
+      display: flex;
+      flex-wrap: wrap;
+      display: inline-block;
+      margin-top: 45px;
+      margin-left: 110px;
+      list-style-type: none;
+      font-size: 150% ;
+      color: black;
+      
+  }
+  article ul a {
+      color:#7f5539;
+      text-decoration: underline;
+      text-underline-position: under;
+  }
+  
+  
+  @media screen and (max-width:904px){
+      #img1 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+          margin-bottom: 10px;
+      }
+      
+      
+      .img-width{
+          display: inline-flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+          
+      }
+  
+      header{
+          display: inline-flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          width: 100%;
+          height: 150px;
+          background-color:#ddbea9;
+      }
+      h1 {
+          padding-top: 25px;
+          padding-left: 0px;
+          display: inline-block;
+          font-size: 300%;
+          color: #7f5539;
+      }
+      nav {
+          display: flex;
+          padding-top: 25px;
+          float: right;
+      }
+  
+      aside {
+          font-size: 200%;
+      }
+  }
