@@ -44,6 +44,7 @@ nav ul li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
+    font-size: 150% ;
 }
 
 nav ul a {
@@ -128,15 +129,19 @@ article {
     text-align: center;
   }
 
+
 article ul li{
     display: flex;
-    display: inline-block;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 110px;
+    list-style-type: none;
+    font-size: 150% ;
+    
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:904px){
     #img1 {
         display: flex;
         flex-direction: row;
