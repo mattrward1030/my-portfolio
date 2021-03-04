@@ -82,6 +82,9 @@ aside {
     padding: 10px;
     
 }
+article {
+    padding-left: 25px;
+}
 
 .main p {
     color: #7f5539;
