@@ -6,7 +6,8 @@
   /* style for all of the body elements */
 body{
     font-size: 15px;
-    background-color: #ede0d4;
+    background-color: #f0efeb;
+    color: #cb997e;
     line-height: 200%;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -17,7 +18,7 @@ header{
     justify-content: space-between;
     width: 100%;
     height: 80px;
-    background-color:#ddb892;
+    background-color:#ddbea9;
 }
 /* h1 tag inside the header */
 h1 {
@@ -89,9 +90,7 @@ article {
     padding-left: 25px;
 }
 
-.main p {
-    color: #7f5539;
-}
+
 
 #img1 {
     display: flex;
@@ -121,7 +120,7 @@ article {
     bottom: 20px;
     left: 20px;
     background-color:#ffe6a7 ;
-    color: white;
+    color:#7f5539 ;
     padding-left: 20px;
     padding-right: 20px;
     height: 50px;
@@ -140,7 +139,14 @@ article ul li{
     margin-left: 110px;
     list-style-type: none;
     font-size: 150% ;
+    color: black;
     
+}
+article ul a {
+    color:#7f5539;
+    text-decoration: underline;
+    text-underline-position: under;
+}
 }
 
 @media screen and (max-width:904px){
