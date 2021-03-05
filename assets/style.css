@@ -1,3 +1,4 @@
+    /* adds root styling */
     :root{
         --dark-font: #7f5539;
         --header-color:#ddbea9;
@@ -174,6 +175,7 @@
   
   /* media query for screen sizes 904px and below */
   @media screen and (max-width:904px){
+      /* header and nav bar */
       header{
           display: inline-flex;
           flex-wrap: wrap;
@@ -196,7 +198,7 @@
       }
 
       
-
+/* 100 percent column */
       aside {
         flex-direction: column;
         flex: 0 0 100%;
@@ -209,7 +211,7 @@
         text-align: center;
         font-size: 200%;
     }
-    
+    /* 75 percent column */
     .main {
         flex-direction: column;
         flex: 0 0 75%;
@@ -217,7 +219,7 @@
         padding: 10px;
         
     }
-
+/* main image */
       #img1 {
         display: flex;
         flex-direction: row;
@@ -226,7 +228,7 @@
         margin-bottom: 10px;
     }
     
-    
+    /* smaller images underneath main one */
     .img-width{
         display: inline-flex;
         flex-direction: row;
@@ -238,10 +240,11 @@
 
   /* media query for screen sizes 430px and below */
   @media screen and (max-width:430px){
+      /* smaller font size for entire body */
     body{
         font-size: 10px;
     }
-
+/* header, h1 and nav */
     header{
         display: inline-flex;
         flex-wrap: wrap;
@@ -262,7 +265,7 @@
         padding-top: 25px;
         float: right;
     }
-    
+    /* section taking up 100 percent */
     aside {
         flex-direction: column;
         flex: 0 0 100%;
@@ -275,7 +278,7 @@
         text-align: center;
         font-size: 200%;
     }
-    
+    /* section taking up 75% */
     .main {
         flex-direction: column;
         flex: 0 0 75%;
@@ -283,7 +286,7 @@
         padding: 10px;
         
     }
-
+/* main image */
     #img1 {
         display: flex;
         flex-direction: row;
@@ -292,7 +295,7 @@
         margin-bottom: 10px;
     }
     
-    
+    /* images underneath main one */
     .img-width{
         display: inline-flex;
         flex-direction: row;
@@ -300,7 +303,7 @@
         width: 100%;
         
     }
-
+/* list items in contact section */
     article ul li{
         display: flex;
         flex-wrap: wrap;
