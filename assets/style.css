@@ -59,13 +59,24 @@
       text-underline-position: under;
   }
   /* background hero image */
-  .back-img{
-      height: 200px;
+  #heroimage{
+      display: flex;
+      height: 300px;
       width: 100%;
       margin-bottom: 25px;
       background-image: url("../assets/images/woodfloor.jpg");
       background-size: cover;
       background-position: center;
+  }
+  /* profile picture */
+  #profile-picture{
+    position: absolute;
+    display: flex;
+    width: 20%;
+    height: 25.5%;
+    background:url("../assets/images/profile2.jpg") no-repeat;
+    background-size: 100%;
+    opacity: 0.9;
   }
   
   
@@ -110,6 +121,7 @@
       flex-direction: row;
       flex-wrap: wrap;
       width: 49%;
+      margin-top: 5px;
       
   }
 /* hover effect on images */
@@ -187,6 +199,17 @@
           padding-top: 25px;
           float: right;
       }
+
+      #profile-picture{
+        position: absolute;
+        display: flex;
+        width: 20%;
+        height: 25.5%;
+        background:url("../assets/images/profile2.jpg") no-repeat;
+        background-size: 100%;
+        opacity: 0.9;
+      }
+
       aside {
         flex-direction: column;
         flex: 0 0 100%;
@@ -252,7 +275,15 @@
         padding-top: 25px;
         float: right;
     }
-
+    #profile-picture{
+        position: absolute;
+        display: flex;
+        width: 20%;
+        height: 40%;
+        background:url("../assets/images/profile2.jpg") no-repeat;
+        background-size: 100%;
+        opacity: 0.9;
+      }
     aside {
         flex-direction: column;
         flex: 0 0 100%;
