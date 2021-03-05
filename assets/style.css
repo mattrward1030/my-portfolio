@@ -130,7 +130,19 @@
       margin-top: 5px;
       
   }
+  /* container for image label */
+  .container {
+    position: relative;
+    text-align: center;
+    color: var(--dark-font);
+  }
   
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
 /* hover effect on images */
   .img-width:hover{
     box-shadow: inset 20px 20px 50px 10px yellow, 0 0 15px yellow;
