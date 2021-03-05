@@ -6,7 +6,7 @@ The goal of this project was to build a portfolio of my work and to showcase my 
 
 ## Approach 
 
-To tackle this portfolio project I relied heavly on CSS flexbox to help me create a responsive layout. Everything on the page should shrink and grow depending on the viewport. It was to have a split layout design so using flex properties I made the title's of the sections take up 25 percent of the page and the main section to tale up 75 percent. I felt this was a solid approach and gave me a clean layout that I was looking for. I decided to give me webpage a cool neutral tone layout to help in stand out among the mass of portfolios that exsist on the web.
+To tackle this portfolio project I relied heavly on CSS flexbox to help me create a responsive layout. Everything on the page should shrink and grow depending on the viewport. It was to have a split layout design so using flex properties I made the titles of the sections take up 25 percent of the page and the main section to take up 75 percent. I felt this was a solid approach and gave me a clean layout that I was looking for. I decided to give my webpage a cool neutral tone layout to help in stand out among the mass of portfolios that exsist on the web.
 
 ## Installation
 
