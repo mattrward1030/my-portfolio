@@ -73,8 +73,8 @@
     position: absolute;
     display: flex;
     flex: 0 0 100%;
-    width: 20%;
-    height: 25.5%;
+    width: 15%;
+    height: 46.2%;
     background:url("../assets/images/profile2.jpg") no-repeat;
     background-size: 100%;
     opacity: 0.9;
@@ -107,8 +107,12 @@
   article {
       padding-left: 25px;
   }
-  
-  
+  /* style for link tag in article paragraph */
+  article p a{
+      color: black;
+      text-decoration: underline;
+      text-underline-position: under;
+  }
   /* flexing images */
   #img1 {
       display: flex;
