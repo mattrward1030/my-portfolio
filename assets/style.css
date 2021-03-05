@@ -72,6 +72,7 @@
   #profile-picture{
     position: absolute;
     display: flex;
+    flex: 0 0 100%;
     width: 20%;
     height: 25.5%;
     background:url("../assets/images/profile2.jpg") no-repeat;
@@ -85,16 +86,17 @@
       display: flex;
       flex: 0 0 100%;
   }
+  /* left 25% of page */
   aside {
       flex: 0 0 25%;
-      border-right: solid black 1px;
+      border-right: solid #a5a58d 3px;
       margin: 10px;
       padding-top: 10px;
       padding-right: 10px;
       text-align: right;
       font-size: 350%;
   }
-  
+  /* right 75% of page */
   .main {
       flex: 0 0 75%;
       margin: 20px;
@@ -134,30 +136,6 @@
 
   }
 
-  /* trying to add box with content inside image */
-  .container {
-      display: flex;
-      position: relative;
-      font-family: Arial;
-    }
-    
-  .text-block {
-      display: block-flex;
-      flex: 0 3 0;
-      position: absolute;
-      bottom: 20px;
-      left: 20px;
-      background-color: var(--header-color);
-      color:var(--dark-font) ;
-      padding-left: 20px;
-      padding-right: 20px;
-      height: 15%;
-      width: 10%;
-      font-size: 100%;
-      line-height: 100%;
-      text-align: center;
-    }
-  
   /* list items in contact me section */
   article ul li{
       display: flex;
@@ -200,15 +178,7 @@
           float: right;
       }
 
-      #profile-picture{
-        position: absolute;
-        display: flex;
-        width: 20%;
-        height: 25.5%;
-        background:url("../assets/images/profile2.jpg") no-repeat;
-        background-size: 100%;
-        opacity: 0.9;
-      }
+      
 
       aside {
         flex-direction: column;
@@ -275,15 +245,7 @@
         padding-top: 25px;
         float: right;
     }
-    #profile-picture{
-        position: absolute;
-        display: flex;
-        width: 20%;
-        height: 40%;
-        background:url("../assets/images/profile2.jpg") no-repeat;
-        background-size: 100%;
-        opacity: 0.9;
-      }
+    
     aside {
         flex-direction: column;
         flex: 0 0 100%;
